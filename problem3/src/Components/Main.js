@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
+import './Main.scss';
 
 class Main extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {  }
-    }
     render() { 
-        return ( <p>main</p> );
+        const { images } = this.props;
+        return (
+            <main className="main"> 
+            <ul className="list-images">
+                {images.map ((image, i) => {
+                    return <li key={i} className="image">
+                        <img src={image} alt="image"/>
+                    </li>
+                })}
+            </ul>
+            </main>
+         );
     }
 }
  
