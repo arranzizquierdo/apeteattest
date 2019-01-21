@@ -9,4 +9,4 @@ function perfectSquare (number) {
     }
 }
 
-console.log(perfectSquare(121));
+console.log('Número cuadrado perfecto =>', perfectSquare(121));

@@ -19,7 +19,4 @@ function poorNumber (number) {
     }
 }
 
-
-console.log('Número deficiente () =>', poorNumber(30))
-console.log(dividersArr);
-console.log(sum)
+console.log('Número deficiente =>', poorNumber(30))
