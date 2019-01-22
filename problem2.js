@@ -19,4 +19,4 @@ function poorNumber(number) {
     }
 }
 
-console.log('Número deficiente =>', poorNumber(30))
+console.log('Número deficiente =>', poorNumber(16))
