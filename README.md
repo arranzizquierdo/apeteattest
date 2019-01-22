@@ -1,6 +1,13 @@
+Laura Arranz [
+    - https://github.com/arranzizquierdo
+    - https://twitter.com/ArranzIzquierdo
+    - https://www.linkedin.com/in/lauraarranzizquierdo/
+]
+
 # apeteatTest
 
-##Problema 1
+
+## Problema 1
     He creado una función que devuelve true si el número introducido es un cuadrado perfecto, o false si no lo es.
 
 ## Problema 2
