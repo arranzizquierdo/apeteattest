@@ -42,7 +42,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Main images={images}/>
+        <Main images={images} />
         <Footer />
       </div>
     );

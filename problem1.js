@@ -1,6 +1,6 @@
 'use strict';
 
-function perfectSquare (number) {
+function perfectSquare(number) {
     const root = Math.sqrt(number);
     if (number % root === 0) {
         return true;

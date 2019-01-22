@@ -1,18 +1,18 @@
 'use strict';
 
-let dividersArr=[];
+let dividersArr = [];
 let sum = 0;
 
-function poorNumber (number) {
-    for (let i=0; i<number; i++) {
+function poorNumber(number) {
+    for (let i = 0; i < number; i++) {
         if (number % i === 0) {
             dividersArr.push(i)
         }
     }
-    for (let i=0; i<dividersArr.length; i++) {
+    for (let i = 0; i < dividersArr.length; i++) {
         sum += dividersArr[i];
     }
-    if ( sum > number) {
+    if (sum > number) {
         return false
     } else {
         return true
