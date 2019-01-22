@@ -1,0 +1,20 @@
+.main {
+    position: relative;
+    top: 140px;
+    margin-bottom: 160px;
+    background: url(../Images/fondo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.list-images {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.image {
+    margin: 10px;
+}
